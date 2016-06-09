@@ -1,6 +1,7 @@
 #pragma once
+
 // T is a generic data type
-template <typename T>
+template <class T>
 class Node
 {
 // private means only this class (base class) can access or modify the private field
